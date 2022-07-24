@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>My To Do List</h1>
+        <div class="buttons">
+            <button class="add">Add Task</button>
+            <button class="deleteBtn1">Delete Task</button>
+            <button class="editTask">Edit Task</button>
+        </div>
+        <div class="tasks"></div>
+        <p>Number of Done Tasks: <span>0</span></p>
+    </div>
+    <div class="edit">
+        <h1>Write Every thing you want in the task</h1>
+        <input type="textarea" class="textarea">
+        <button class="save">save Task</button>
+    </div>
+    <div class="delete">
+        <h1>Enter the number of the task</h1>
+        <input type="text">
+        <button id="delete">Delete Task</button>
+    </div>
+    <div class="modify">
+        <h1>Enter The number of the task and modify it</h1>
+        <input class="modifyNumber" type="text">
+        <input class="area" type="textarea">
+        <button id="modify">Modify</button>
+    </div>
+    <script src="https://kit.fontawesome.com/06e6f33fe9.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

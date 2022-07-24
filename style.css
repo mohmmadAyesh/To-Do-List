@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100;400&family=Noto+Sans:ital,wght@1,300;1,400;1,500&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Poiret+One&family=Poppins:wght@300&family=Raleway:wght@300&family=Roboto:ital,wght@1,300&family=Smooch&family=Tajawal:wght@300&family=Ubuntu:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.card{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:500px;
+    height:auto;
+    background: #f5f5f5;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.6);
+    border-radius: 10px;
+
+}
+.card .buttons{
+    display: flex;
+    justify-content: space-between;
+    padding:5px 10px;
+}
+.card .buttons button{
+    background:#1bb295;
+    color:#fff;
+    border:none;
+    border-radius: 3px;
+    padding:10px 20px;
+    margin-bottom:20px;
+}
+.edit{
+    width:500px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    z-index:1;
+    background: #f5f5f5;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.6);
+    border-radius: 10px;
+    display: none;
+}
+.edit input{
+    width:100%;
+    height:300px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.edit .save{
+    padding:10px 30px;
+    background: #1bb295;
+    color:#fff;
+    border:none;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.card .tasks p{
+    background: #1bb295;
+    color:#fff;
+    padding:0 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+    margin-bottom: 10px;
+}
+.card .tasks a{
+    background: #656565;
+    width:20px;
+    height:20px;
+    font-size: 20px;
+    color:white;
+    margin-right: 10px;
+}
+.card .tasks div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delete{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index:1;
+    background: #f5f5f5;
+    display: none;
+    border: 1px solid #1bb295;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+.delete button{
+    padding:10px 30px;
+    background: #1bb295;
+    color:#fff;
+    border:none;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.delete input{
+    width:30px;
+    border: 1px solid #1bb295;
+    outline: none;
+}
+.modify{
+    width:500px;
+    border:none;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.6);
+    padding:10px 20px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.modify button{
+    background: #1bb295;
+    padding:5px 10px;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.6);
+}
+.modify .modifyNumber{
+    display: block;
+    width:20px;
+    height:20px;
+}
+.modify .area{
+    display: block;
+    width:100%;
+    height:300px;
+}
+.modify input{
+    border:1px solid #1bb295;
+    outline: none;
+    margin: 10px;
+}
+.card p{
+    font-size: 18px;
+}
